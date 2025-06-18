@@ -127,11 +127,11 @@
 					<div class="right__little__programm numerals__card">
 						<div class="top__little__programs numerals__card__info">
 							<div class="price">100+</div>
-							<div class="price__description__numerals"> лет в образовании</div>
+							<div class="price__description__numerals">лет в образовании</div>
 						</div>
 						<div class="top__little__programs__end numerals__card__info">
 							<div class="price">100+</div>
-							<div class="price__description__numerals"> опытных преподавателей-практиков</div>
+							<div class="price__description__numerals">опытных преподавателей-практиков</div>
 						</div>
 					</div>
 				</div>
@@ -144,15 +144,15 @@
 				</div>
 				<div class="little__programm__numerals">
 					<div class="price">400+</div>
-					<div class="price__description__numerals"> компаний- партнеров</div>
+					<div class="price__description__numerals">компаний- партнеров</div>
 				</div>
 				<div class="little__programm__numerals">
 					<div class="price"> 13000+</div>
-					<div class="price__description__numerals">  обучающихся</div>
+					<div class="price__description__numerals">обучающихся</div>
 				</div>
 				<div class="little__programm__numerals__end">
 					<div class="price">3000+</div>
-					<div class="price__description__numerals"> мест в общежитии</div>
+					<div class="price__description__numerals">мест в общежитии</div>
 				</div>
 			</div>
 
@@ -197,18 +197,163 @@
 
     <section class="supervisor">
     	<div class="container">
-    		<h3>Академические руководители</h3>
-    		<div block__supervisor>
+    		<h3 class="acad__supervisor">Академические руководители</h3>
+    		<div class="block__supervisor">
     			<div class="first__supervisor">
-    				<h3>Академические руководители</h3>
+    				<div class="photo__g"></div>
+    				<div class="user__card">
+    					<div class="user__name">
+    						Генералова Анна Владимировна
+    					</div>
+    					<div class="user__info">
+    						Кандидат экономических наук, доцент, заведующая кафедрой Финансов и бизнес-аналитики РГУ им. А.Н. Косыгина, ведущий консультант крупных финансовых и инвестиционных компаний России, признанный эксперт в области финансовой экономики, инвестиционного анализа и цифровой трансформации бизнес-моделей. Автор более 160 научных и методических работ, участник федеральных и международных образовательных инициатив.
+    					</div>
+    				</div>
     			</div>
-    			<div class="second__supervisor">
-    				<h3>Академические руководители</h3>
+    			<div class="first__supervisor">
+    				<div class="photo__t"></div>
+    				<div class="user__card">
+    					<div class="user__name">
+    						Генералова Анна Владимировна
+    					</div>
+    					<div class="user__info">
+    						Кандидат экономических наук, доцент, заведующая кафедрой Финансов и бизнес-аналитики РГУ им. А.Н. Косыгина, ведущий консультант крупных финансовых и инвестиционных компаний России, признанный эксперт в области финансовой экономики, инвестиционного анализа и цифровой трансформации бизнес-моделей. Автор более 160 научных и методических работ, участник федеральных и международных образовательных инициатив.
+    					</div>
+    				</div>
     			</div>
     		</div>
     	</div>
     </section>
 
+    <section class="success">
+    	<div class="container">
+    		<h3 class="acad__supervisor">Истории успеха</h3>
+    		<div class="success__card__block">
+					<div class="success__card">
+						<div class="card__user">
+							<div class="user__data">
+								<div class="card__user__photo__n"></div>
+								<div class="card__user__name">
+									Носков Денис
+								</div>
+							</div>
+							<div class="card__info">
+								Предприниматель, владелец кофейного бизнеса
+							</div>
+						</div>
+					</div>
+					<div class="success__card">
+						<div class="card__user">
+							<div class="user__data">
+								<div class="card__user__photo__p"></div>
+								<div class="card__user__name">
+									Пушкина Юлия
+								</div>
+							</div>
+							<div class="card__info">
+								Менеджер проектов в направлении по работе с эмитентами Тинькофф Инвестиции
+							</div>
+						</div>
+					</div>
+					<div class="success__card">
+						<div class="card__user">
+							<div class="user__data">
+								<div class="card__user__photo__s"></div>
+								<div class="card__user__name">
+									Шушкевич Алина
+								</div>
+							</div>
+							<div class="card__info">
+								Senior Database spesialist ITE Expo International
+							</div>
+						</div>
+					</div>
+					<div class="success__card">
+						<div class="card__user">
+							<div class="user__data">
+								<div class="card__user__photo__z"></div>
+								<div class="card__user__name">
+									Жудина Юлия
+								</div>
+							</div>
+							<div class="card__info">
+								Главный аналитик отдела операционных рисков АО «Почтабанк»
+							</div>
+						</div>
+					</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="partners">
+     	<div class="container">
+        <h3 class="text__partners">Наши партнёры</h3>
+        <div class="partners-row partners-row-1">
+          <img src="assets/img/fns.svg" alt="ФНС">
+          <img src="assets/img/omvd.svg" alt="ОМВД России по городскому округу Серебряные Пруды">
+          <img src="assets/img/sber.svg" alt="Сбербанк">
+          <img src="assets/img/VTB.svg" alt="ВТБ">
+          <img src="assets/img/gazprom.svg" alt="Газпромбанк">
+          <img src="assets/img/x5.svg" alt="X5 Group">
+          <img src="assets/img/kaskad.svg" alt="Каскад">
+        </div>
+        <div class="partners-row partners-row-2">
+          <img src="assets/img/psb.svg" alt="ПСБ">
+          <img src="assets/img/rosseti.svg" alt="Россети">
+          <img src="assets/img/kotofei.svg" alt="Котофей">
+          <img src="assets/img/elit.svg" alt="Элит Профит">
+          <img src="assets/img/termopol.svg" alt="Термопол">
+        </div>
+        <div class="partners-row partners-row-3">
+          <img src="assets/img/fcg.svg" alt="Fashion Consulting Group">
+          <img src="assets/img/Vostok.svg" alt="Восток">
+          <img src="assets/img/tekstprom.svg" alt="Иновационный центр текстильной и лёгкой промышленности">
+          <img src="assets/img/favorit.svg" alt="Favorit">
+          <img src="assets/img/sberlog.svg" alt="Сбер Логистика">
+          <img src="assets/img/karamelli.svg" alt="Карамелли">
+        </div>
+        <div class="partners-row partners-row-4">
+          <img src="assets/img/apu.svg" alt="Агрегатор профессиональных услуг">
+          <img src="assets/img/asb.svg" alt="АСБ Консалтинг групп">
+          <img src="assets/img/mf.svg" alt="Mark Formelle">
+          <img src="assets/img/consplus.svg" alt="КонсультантПлюс">
+          <img src="assets/img/rpn.svg" alt="Роспотребнадзор">
+          <img src="assets/img/parij.svg" alt="Парижская Коммуна">
+        </div>
+    	</div>
+    </section>
+	  <footer class="footer">
+	    <div class="footer-container">
+	      <div class="footer-left-columns">
+	        <h2>Контакты</h2>
+	        <div class="footer-rows-2col">
+	          <div class="footer-subcol">
+	            <p>
+	              <img src="assets/img/map.svg" alt="Адрес" class="footer-icon" />
+	              г. Москва, ул. Малая Калужская, д.1
+	            </p>
+	            <p>
+	              <img src="assets/img/phone.svg" alt="Телефон" class="footer-icon" />
+	              +7(000)000-00-00
+	            </p>
+	            <p>
+	              <img src="assets/img/mail.svg" alt="Email" class="footer-icon" />
+	              kaf-fba@rguk.ru
+	            </p>
+	          </div>
+	          <div class="footer-subcol">
+	            <a href="#">О нас</a>
+	            <a href="#">О программе</a>
+	            <a href="#">Академические руководители</a>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="footer-right">
+	        <p>Университет Косыгина</p>
+	        <img src="assets/img/qr.svg" alt="QR-Код" class="qr-code" />
+	      </div>
+	    </div>
+	  </footer>
     <!-- knopka-faq  -->
     <script>
       document.querySelectorAll('.faq-question').forEach(button => {
