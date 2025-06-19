@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, p {
 	display: block;
 	font-size: 32px;
 	text-decoration: none;
-	width: 100%
+	width: 100%;
 	max-width: 560px;
 	padding: 14px 160px;
 	background: #FFFFFF;
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1960px) {
 
 	.intro {
 		height: auto;
@@ -352,8 +352,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 470px) {
 
+	.intro {
+		height: 100vh;
+	}
+
 	.container {
 		max-width: 380px;
+	}
+
+	.intro__group {
+		margin-top: 300px;
 	}
 
 	.nav__link {
@@ -746,6 +754,11 @@ h1, h2, h3, h4, h5, h6, p {
 	.card__info__text {
 		font-size: 8px !important;
 	}
+
+	.right__bottom__block,
+	.bottom__block__end {
+		margin-right: 10px;
+	}
 }
 
 .top__programs, .middle__programs {
@@ -1054,7 +1067,7 @@ h1, h2, h3, h4, h5, h6, p {
 	.little__programm,
 	.little__programm__end {
 		font-size: 8px;
-		height:  72px;
+		height:  82px;
 		max-width: 140px;
 		padding: 10px;
 	} 
@@ -1062,7 +1075,7 @@ h1, h2, h3, h4, h5, h6, p {
 	.last__programm__card,
 	.last__programm__end {
 		font-size: 8px;
-		height: 72px;
+		height: 82px;
 		max-width: 190px;
 		padding: 10px;
 	}
@@ -1842,6 +1855,23 @@ h1, h2, h3, h4, h5, h6, p {
 	.card__user {
 		width: 360px;
 		margin: 30px 20px 0px 0px;
+	}
+
+	.card__user__name {
+		font-size: 24px;
+	}
+
+	.card__info {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 450px) {
+	.card__user {
+		width: 340px;
+		margin: 30px 20px 0px 0px;
+		height: 240px;
+		padding: 0px 20px 0px 20px;
 	}
 
 	.card__user__name {
