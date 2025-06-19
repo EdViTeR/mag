@@ -15,7 +15,6 @@
 		<div class="container">
 			<div class="header__inner">
 				<div class="header__logo"></div>
-				
 				<nav class="nav">
 					<a class="nav__link" href="#">О нас</a>
 					<a class="nav__link" href="#">Направления подготовки</a>
@@ -322,34 +321,34 @@
   </section>
 
 	<footer class="footer">
-	  <div class="footer-container">
-	    <div class="footer-left-columns">
-	      <h2>Контакты</h2>
-	      <div class="footer-rows-2col">
-	        <div class="footer-subcol">
+	  <div class="container">
+	    <div class="footer__columns">
+	      <div class="footer__left">
+	      	<h2>Контакты</h2>
+	      	<div class="left__footer__menu">
 	          <p>
 	            <img src="assets/img/map.svg" alt="Адрес" class="footer-icon" />
 	            г. Москва, ул. Малая Калужская, д.1
 	          </p>
 	          <p>
-	            <img src="assets/img/phone.svg" alt="Телефон" class="footer-icon" />
+	            <img src="assets/img/phone.svg" alt="Телефон" class="footer-icon" width="24px" height="24px"  />
 	            +7(000)000-00-00
 	          </p>
 	          <p>
 	            <img src="assets/img/mail.svg" alt="Email" class="footer-icon" />
 	            kaf-fba@rguk.ru
 	          </p>
-	        </div>
-	        <div class="footer-subcol">
-	          <a href="#">О нас</a>
-	          <a href="#">О программе</a>
-	          <a href="#">Академические руководители</a>
-	        </div>
+	      	</div>
 	      </div>
-	    </div>
-	    <div class="footer-right">
-	      <p>Университет Косыгина</p>
-	      <img src="assets/img/qr.svg" alt="QR-Код" class="qr-code" />
+	      <div class="footer__center">
+	        <a href="#">О нас</a>
+	        <a href="#">О программе</a>
+	        <a href="#">Академические руководители</a>
+	      </div>
+		    <div class="footer-right">
+		      <p>Университет Косыгина</p>
+		      <img src="assets/img/qr.svg" alt="QR-Код" class="qr-code"/>
+		    </div>
 	    </div>
 	  </div>
 	</footer>
