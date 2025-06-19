@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 470px) {
 
 	.intro {
-		height: 100vh;
+		min-height: 680px;
 	}
 
 	.container {
@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 
 	.intro__group {
-		margin-top: 300px;
+		margin-top: 50px;
 	}
 
 	.nav__link {
@@ -747,17 +747,23 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 470px) {
 
+	.right__head__block,
+	.bottom__block {
+		height: 200px;
+	}
+
 	.card__head__text {
 		font-size: 12px !important;
 	}
 
 	.card__info__text {
-		font-size: 8px !important;
+		font-size: 10px !important;
 	}
 
 	.right__bottom__block,
 	.bottom__block__end {
 		margin-right: 10px;
+		height: 200px;
 	}
 }
 
@@ -1048,6 +1054,7 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 
 	.top__big__programs {
+		border-radius: 8px;
 		max-width: 160px;
 		padding: 12px;
 		height: 80px;
@@ -1066,6 +1073,7 @@ h1, h2, h3, h4, h5, h6, p {
 	.top__little__programs__end,
 	.little__programm,
 	.little__programm__end {
+		border-radius: 8px;
 		font-size: 8px;
 		height:  82px;
 		max-width: 140px;
@@ -1075,6 +1083,7 @@ h1, h2, h3, h4, h5, h6, p {
 	.last__programm__card,
 	.last__programm__end {
 		font-size: 8px;
+		border-radius: 8px;
 		height: 82px;
 		max-width: 190px;
 		padding: 10px;
@@ -1306,8 +1315,9 @@ h1, h2, h3, h4, h5, h6, p {
 		font-size: 8px;
 	}
 
-	.right__top__programs {
-		width: 190px;
+	.right__top__programs,
+	.top__little__programs__end {
+		width: 184px;
 	}
 	.middle__programs__bottom {
 		width: 200px;
@@ -1316,10 +1326,12 @@ h1, h2, h3, h4, h5, h6, p {
 	.numerals__card__info {
 		height: 68px;
 		padding: 12px;
+		border-radius: 8px;
 	}
 
 	.little__programm__numerals,
 	.little__programm__numerals__end {
+		border-radius: 8px;
 		padding: 12px;
 		height: 68px;
 	}
@@ -1679,17 +1691,28 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 520px) {
 
+	.photo__g,
+	.photo__t {
+		margin: 24px 12px;
+	}
+
+	.acad__supervisor {
+		font-size: 24px;
+	}
+
 	.first__supervisor {
 		max-width: 680px;
 		height: 280px;
 	}
-
+	.card__user__name {
+		font-size: 20px !important;
+	}
 	.user__name {
 		font-size: 14px !important;
 	}
 
 	.user__info {
-		font-size: 8px !important;
+		font-size: 10px !important;
 	}
 }
 
@@ -1866,20 +1889,25 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 	.card__user {
 		width: 340px;
 		margin: 30px 20px 0px 0px;
 		height: 240px;
 		padding: 0px 20px 0px 20px;
+		height: 200px !important;
 	}
 
 	.card__user__name {
-		font-size: 24px;
+		font-size: 20px;
+	}
+
+	.card__user {
+		height: 220px;
 	}
 
 	.card__info {
-		font-size: 16px;
+		font-size: 12px;
 	}
 }
 
@@ -2126,5 +2154,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 	.partners {
 		margin-top: -100px;
+	}
+}
+
+@media (max-width: 470px) {
+	.text__partners {
+		font-size: 36px;
+	}
+
+	.footer__left h2 {
+		font-size: 36px;
 	}
 }

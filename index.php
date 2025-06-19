@@ -16,9 +16,9 @@
 			<div class="header__inner">
 				<div class="header__logo"></div>
 				<nav class="nav">
-					<a class="nav__link" href="#">О нас</a>
-					<a class="nav__link" href="#">Направления подготовки</a>
-					<a class="nav__link" href="#">Контакты</a>
+					<a class="nav__link" href="#" onclick="scrollToBlock('about')">О нас</a>
+					<a class="nav__link" href="https://rguk.ru/applicant/admission-rules/magistratura/directions/">Направления подготовки</a>
+					<a class="nav__link" onclick="scrollToBlock('footer')" href="#">Контакты</a>
 				</nav>				
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 			</div>
 		</section>
 		<!-- <img src="assets/img/wave.svg" class="background-image" alt="Фоновое изображение"> -->
-		<section class="section__programs">
+		<section id="about" class="section__programs">
 			<div class="container">
 				<div class="top__programs">
 					<div class="left__top__programs">
@@ -81,7 +81,7 @@
 					</div>
 					<div class="right__top__programs">
 						<div class="top__big__programs">
-							<div class="price">от<br>120 000+₽</div>
+							<div class="price">от<br>120 000₽</div>
 							<div class="price__description">По данным hh.ru средняя зарплата от 120 000 РУБ. без опыта работы</div>
 						</div>
 						<div class="right__little__programm">
@@ -129,7 +129,7 @@
 							</div>
 							<div class="top__little__programs__end numerals__card__info">
 								<div class="price">100+</div>
-								<div class="price__description__numerals">опытных преподавателей-практиков</div>
+								<div class="price__description__numerals">опытных преподавателей практиков</div>
 							</div>
 						</div>
 					</div>
@@ -156,7 +156,7 @@
 
 				<div class="middle__programs__bottom">
 					<div class="little__programm__numerals">
-						<div class="price">+2000</div>
+						<div class="price">2000+</div>
 						<div class="price__description__numerals">внебюджетных мест</div>
 					</div>
 					<div class="little__programm__numerals">
@@ -214,10 +214,10 @@
 	    			<div class="photo__t"></div>
 	    			<div class="user__card">
 	    				<div class="user__name">
-	    					Генералова Анна Владимировна
+	    					Квач Наталия Михайловна
 	    				</div>
 	    				<div class="user__info">
-	    					Кандидат экономических наук, доцент, заведующая кафедрой Финансов и бизнес-аналитики РГУ им. А.Н. Косыгина, ведущий консультант крупных финансовых и инвестиционных компаний России, признанный эксперт в области финансовой экономики, инвестиционного анализа и цифровой трансформации бизнес-моделей. Автор более 160 научных и методических работ, участник федеральных и международных образовательных инициатив.
+	    					Кандидат технических наук, доцент кафедры финансов и бизнес-аналитики РГУ им. А.Н. Косыгина, эксперт в области цифровых финансов, финансово менеджмента и прикладной бизнес-аналитики, корпоративных финансах, автор более 160 научных публикаций, включая статьи в рецензируемых журналах по теме финансовой аналитики, моделей оценки рисков и цифровых инструментов в экономике.
 	    				</div>
 	    			</div>
 	    		</div>
@@ -295,7 +295,7 @@
         <img src="assets/img/fns.svg" alt="ФНС">
         <img src="assets/img/omvd.svg" alt="ОМВД России по городскому округу Серебряные Пруды">
         <img src="assets/img/sber.svg" alt="Сбербанк">
-        <img src="assets/img/VTB.svg" alt="ВТБ">
+        <img src="assets/img/vtb.svg" alt="ВТБ">
         <img src="assets/img/gazprom.svg" alt="Газпромбанк">
         <img src="assets/img/x5.svg" alt="X5 Group">
         <img src="assets/img/kaskad.svg" alt="Каскад">
@@ -320,22 +320,21 @@
     </div>
   </section>
 
-	<footer class="footer">
+	<footer id="footer" class="footer">
 	  <div class="container">
 	    <div class="footer__columns">
 	      <div class="footer__left">
 	      	<h2>Контакты</h2>
 	      	<div class="left__footer__menu">
 	          <p>
-	            <img src="assets/img/map.svg" alt="Адрес" class="footer-icon" />
-	            г. Москва, ул. Малая Калужская, д.1
+	            <img src="assets/img/map.svg" alt="Адрес" class="footer-icon" />&nbsp;&nbsp;г. Москва, ул. Малая Калужская, д.1
 	          </p>
 	          <p>
-	            <img src="assets/img/phone.svg" alt="Телефон" class="footer-icon" width="24px" height="24px"  />
-	            +7(000)000-00-00
+	            <img src="assets/img/phone.svg" alt="Телефон" class="footer-icon" width="24px" height="24px"  />&nbsp;
+	            8 (495) 811-00-01
 	          </p>
 	          <p>
-	            <img src="assets/img/mail.svg" alt="Email" class="footer-icon" />
+	            <img src="assets/img/mail.svg" alt="Email" class="footer-icon" />&nbsp;
 	            kaf-fba@rguk.ru
 	          </p>
 	      	</div>
@@ -368,5 +367,13 @@
     });
   });
   </script>
+	<script>
+	  function scrollToBlock(targetId) {
+	    const targetElement = document.getElementById(targetId);
+	    if (targetElement) {
+	      targetElement.scrollIntoView({ behavior: 'smooth' });
+	    }
+	  }
+	</script>
 </body>
 </html>
