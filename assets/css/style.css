@@ -1904,7 +1904,61 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 40px;
   margin-top: 60px;
 }
+/*///////////////////////////////*/
+.carousel {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  > * {
+    flex: 0 0 100%;
+  }
+  &:hover .group {
+    animation-play-state: paused;
+  }
+}
 
+.group {
+  display: flex;
+  gap: 20px;
+  will-change: transform; /* Мы должны быть добры к браузеру - пусть он знает, что мы будем анимировать. */
+  animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.card {
+  width: 100%;
+  color: white;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 10%) 5px 5px 20px 0;
+  padding: 20px;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+
+	&:nth-child(1) {
+	  background: #7958ff;
+	}
+
+  &:nth-child(2) {
+    background: #5d34f2;
+  }
+
+  &:nth-child(3) {
+    background: #4300da;
+  }
+}
+/*///////////////////////////////*/
 .footer {
   background-color: #0b145c;
   color: white;
@@ -2013,13 +2067,9 @@ h1, h2, h3, h4, h5, h6, p {
   background: rgba(103, 116, 142, 0.6);
 }
 
-.scrollable-container {
-  width: 300px; /* Задайте ширину контейнера */
-  overflow-x: auto; /* Включаем горизонтальную прокрутку */
-  overflow-y: hidden; /*  Скрываем вертикальную прокрутку */
-  white-space: nowrap; /* Запрещаем перенос текста */
-}
-
-.scrollable-content {
-  display: inline-block; /* Чтобы содержимое "склеилось" в одну линию */
+  @media (max-width: 1480px) {
+		.footer-container {
+		  max-width: 60%;
+		  width: 60%;
+		}
 }
