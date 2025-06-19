@@ -290,7 +290,9 @@
   <section class="partners">
    	<div class="container">
       <h3 class="text__partners">Наши партнёры</h3>
-      <div class="partners-row partners-row-1">
+    </div>
+    <div class="carousel">
+    	<div class="group">
         <img src="assets/img/fns.svg" alt="ФНС">
         <img src="assets/img/omvd.svg" alt="ОМВД России по городскому округу Серебряные Пруды">
         <img src="assets/img/sber.svg" alt="Сбербанк">
@@ -298,23 +300,17 @@
         <img src="assets/img/gazprom.svg" alt="Газпромбанк">
         <img src="assets/img/x5.svg" alt="X5 Group">
         <img src="assets/img/kaskad.svg" alt="Каскад">
-      </div>
-      <div class="partners-row partners-row-2">
         <img src="assets/img/psb.svg" alt="ПСБ">
         <img src="assets/img/rosseti.svg" alt="Россети">
         <img src="assets/img/kotofei.svg" alt="Котофей">
         <img src="assets/img/elit.svg" alt="Элит Профит">
         <img src="assets/img/termopol.svg" alt="Термопол">
-      </div>
-      <div class="partners-row partners-row-3">
         <img src="assets/img/fcg.svg" alt="Fashion Consulting Group">
         <img src="assets/img/Vostok.svg" alt="Восток">
         <img src="assets/img/tekstprom.svg" alt="Иновационный центр текстильной и лёгкой промышленности">
         <img src="assets/img/favorit.svg" alt="Favorit">
         <img src="assets/img/sberlog.svg" alt="Сбер Логистика">
         <img src="assets/img/karamelli.svg" alt="Карамелли">
-      </div>
-      <div class="partners-row partners-row-4">
         <img src="assets/img/apu.svg" alt="Агрегатор профессиональных услуг">
         <img src="assets/img/asb.svg" alt="АСБ Консалтинг групп">
         <img src="assets/img/mf.svg" alt="Mark Formelle">
@@ -322,8 +318,9 @@
         <img src="assets/img/rpn.svg" alt="Роспотребнадзор">
         <img src="assets/img/parij.svg" alt="Парижская Коммуна">
       </div>
-  	</div>
+    </div>
   </section>
+
 	<footer class="footer">
 	  <div class="footer-container">
 	    <div class="footer-left-columns">
